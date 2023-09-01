@@ -13,6 +13,8 @@ h1 {
     height: 40px; 
     color:#ffaa00;
     background: #000000;
+    text-overflow: ellipsis;overflow: hidden;white-space: nowrap;
+
 }
 
 h2 {
@@ -34,12 +36,11 @@ li {
 
 img {
     display:inline-block;
-    width: 50%;
     margin:auto;
     border-radius: 10px;
     background: #ffffff;
     padding: 10px;
     width: 200px;
-    height: 100px; 
+    height: auto; 
 }
 
